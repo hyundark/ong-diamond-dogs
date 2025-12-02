@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | Diamond Dogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">Diamond <span>Dogs</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 4rem 1rem; max-width: 900px;">
+        <h1 style="text-align:center; margin-bottom:1rem;">Cadastro de Voluntário / Doador</h1>
+        <p style="text-align:center; margin-bottom:3rem;">Preencha com seus dados para participar da Diamond Dogs!</p>
+
+        <form id="formCadastro" class="form-voluntario" novalidate>
+            <div class="form-grid">
+                <input type="text" name="nome" placeholder="Nome Completo *" required>
+                <input type="email" name="email" placeholder="E-mail *" required>
+                <input type="text" name="cpf" placeholder="CPF *" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
+                <input type="tel" name="telefone" placeholder="Telefone com DDD *" pattern="\(\d{2}\) \d{4,5}-\d{4}" required>
+                <input type="date" name="nascimento" required>
+                <input type="text" name="endereco" placeholder="Endereço completo *" required>
+                <input type="text" name="cep" placeholder="CEP *" pattern="\d{5}-\d{3}" required>
+                <input type="text" name="cidade" placeholder="Cidade *" required>
+                <input type="text" name="estado" placeholder="Estado (ex: SP) *" maxlength="2" required>
+            </div>
+
+            <div style="text-align:center; margin-top:3rem;">
+                <button type="submit" class="btn-enviar">Enviar Cadastro</button>
+            </div>
+        </form>
+
+        <div class="mensagem-sucesso" id="mensagemSucesso">
+            Cadastro realizado com sucesso!<br>
+            <strong>Entraremos em contato em até 48h.</strong>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Diamond Dogs</p>
+        </div>
+    </footer>
+
+    <script src="js/cadastro.js"></script>
+</body>
+</html>
