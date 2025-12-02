@@ -3,7 +3,8 @@
 **Projeto Final – Desenvolvimento Front-end para Web**  
 **100% HTML5 + CSS3 + JavaScript**
 
-Live demo: https://SEU-USUARIO.github.io/diamond-dogs/
+Live demo: https://hyundark.github.io/ong-diamond-dogs/)
+
 
 ## Páginas desenvolvidas (exigência atendida)
 
@@ -40,7 +41,7 @@ Live demo: https://SEU-USUARIO.github.io/diamond-dogs/
 
 1. Baixe ou clone este repositório
 2. Abra o arquivo `index.html` no navegador
-3. Ou acesse diretamente online: https://SEU-USUARIO.github.io/diamond-dogs/
+3. Ou acesse diretamente online: https://hyundark.github.io/ong-diamond-dogs/)
 
 > Nenhum servidor é necessário – tudo funciona 100% offline!
 
